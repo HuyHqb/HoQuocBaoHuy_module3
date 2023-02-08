@@ -1,0 +1,7 @@
+{
+  "name": "User Management",
+  "version": "1.0.0",
+  "devDependencies": {
+    "datatables.net": "^1.10.25"
+  }
+}

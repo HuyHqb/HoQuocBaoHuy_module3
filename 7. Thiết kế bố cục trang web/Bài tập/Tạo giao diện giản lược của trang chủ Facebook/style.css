@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  height: 100%;
+  background-color: rgb(19, 16, 16);
+}
+
+header {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(28, 30, 33);
+  z-index: 1;
+}
+
+.left,
+.right {
+  width: 20%;
+  height: 100vh;
+  background-color: rgb(19, 16, 16);
+  position: fixed;
+}
+
+.left {
+  top: 0;
+  left: 0;
+}
+
+.right {
+  top: 0;
+  right: 0;
+}
+
+.newsfeed {
+  width: 60%;
+  height: 100vh;
+  margin: auto;
+}
+
+.story {
+  width: 80%;
+  height: 150px;
+  margin: 50px auto 20px auto;
+  border-radius: 5px;
+}
+
+.story-wrapper {
+  overflow-x: scroll;
+  display: flex;
+  width: 100%;
+}
+
+.stories {
+  width: 100px;
+  height: 150px;
+  margin: 0 4px;
+  flex-shrink: 0;
+  background-color: rgb(161, 161, 161);
+  border-radius: 5px;
+}
+
+.post {
+  width: 80%;
+  height: 300px;
+  margin: 10px auto;
+  border-radius: 5px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.account {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(94, 94, 94);
+}
+
+.info {
+  height: 20px;
+  margin-top: 200px;
+  background-color: rgb(94, 94, 94);
+}
+
+.react {
+  height: 30px;
+  background-color: rgb(68, 50, 50);
+}
+
+.react-wrapper {
+  display: flex;
+}
+
+.react-title {
+  width: 30%;
+  height: 30px;
+  margin: auto 10;
+}
+
+.activity {
+  margin: 50px auto 10px auto;
+  width: 90%;
+  height: 45%;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: rgb(104, 104, 104);
+}
+
+.group-shortcut {
+  margin: auto;
+  width: 90%;
+  height: 35%;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: rgb(104, 104, 104);
+}
+
+.friend-list {
+  margin: 50px auto 0 auto;
+  height: 90%;
+  background-color: rgb(104, 104, 104);
+  border-radius: 5px;
+}

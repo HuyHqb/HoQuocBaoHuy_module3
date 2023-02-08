@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  top: 0;
+  background-color: rgb(68, 67, 67);
+}
+
+.nav-title {
+  height: 20px;
+  width: 60px;
+  margin: auto 0px;
+  padding: 10px;
+  text-align: center;
+  float: left;
+}
+
+.nav-title a {
+  text-decoration: none;
+  color: rgb(212, 212, 212);
+  margin: auto;
+}
+
+.nav-title:hover {
+  background-color: black;
+}
+
+.login {
+  float: right;
+  margin-right: 10px;
+}
+
+.login i {
+  margin: auto 0;
+}
+
+.content {
+  margin: 0 auto 15px auto;
+  text-align: justify;
+  padding: 20px;
+}
+
+.description {
+  border-bottom: 1px solid gainsboro;
+  padding: 0 0 15px 0;
+}
+
+.left {
+  width: 15%;
+  height: 100%;
+  position: fixed;
+  top: 40px;
+  background-color: rgb(226, 226, 225);
+  padding: 10px;
+}
+
+.left a {
+  display: block;
+  text-decoration: none;
+  color: rgb(67, 184, 184);
+  line-height: 40px;
+  margin: auto;
+  text-align: center;
+}
+
+.content {
+  width: 60%;
+  margin: 40px auto;
+}
+
+.right {
+  width: 15%;
+  position: fixed;
+  right: 0;
+  top: 40px;
+  height: 100%;
+  background-color: rgb(226, 226, 225);
+  padding: 10px;
+}
+
+.right a {
+  text-decoration: none;
+  color: rgb(15, 24, 24);
+  margin: auto;
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(68, 67, 67);
+  text-align: center;
+}
+
+footer p {
+  margin: auto;
+  color: azure;
+}
+
+.ads {
+  display: flex;
+  border: 2px solid rgba(170, 170, 170, 0.473);
+  border-radius: 5px;
+  width: 100%;
+  height: 50px;
+  margin: 20px auto;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    height: 200px;
+    position: static;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .nav-title {
+    float: none;
+  }
+
+  .nav-right {
+    float: left;
+  }
+
+  .login {
+    float: right;
+  }
+
+  .left {
+    width: 100%;
+    position: static;
+    padding: 0;
+    display: flex;
+    background-color: rgb(226, 226, 225);
+
+  }
+
+  .left a {
+    margin: auto;
+  }
+
+  .right {
+    width: 100%;
+    padding: 0;
+    position: static;
+    display: flex;
+    height: 70px;
+  }
+
+  .right a {
+    margin: auto;
+  }
+
+  .ads {
+    margin: auto;
+  }
+
+  .content {
+    width: 90%;
+    margin: 0 auto 40px auto;
+  }
+
+  footer {
+    position: static;
+  }
+}

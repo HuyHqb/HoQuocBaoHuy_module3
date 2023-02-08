@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Tạo trang web hiển thị thời gian hệ thống/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Tạo trang web hiển thị thời gian hệ thống" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

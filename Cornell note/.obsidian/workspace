@@ -1,0 +1,97 @@
+{
+  "main": {
+    "id": "09858e8d1f867fe9",
+    "type": "split",
+    "children": [
+      {
+        "id": "e6ba8ae62623d8d9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Thiết kế và tạo CSDL/Các định nghĩa.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "44c56dd7f278def0",
+    "type": "split",
+    "children": [
+      {
+        "id": "e228fe10c3619096",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "76b5b5218a9156fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "609f2f698fac7421",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "841bc0e9532ff97a",
+    "type": "split",
+    "children": [
+      {
+        "id": "9829f5875ce121d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d600ec815c365319",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Thiết kế và tạo CSDL/Các định nghĩa.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e6ba8ae62623d8d9",
+  "lastOpenFiles": [
+    "Thiết kế và tạo CSDL/Các định nghĩa.md",
+    "Thiết kế và tạo CSDL/Chuyển đổi từ ERD sang CSDL quan hệ.md",
+    "Untitled.md",
+    "Thiết kế và tạo CSDL/Thiết kế và tạo CSDL.md",
+    "Thiết kế và tạo CSDL/Untitled.md"
+  ]
+}

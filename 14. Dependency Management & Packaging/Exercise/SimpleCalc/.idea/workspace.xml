@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ecce961-592e-4fdb-889f-54914d8a5f91" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/Calculator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/Calculator/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/Calculator/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/Calculator/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/Calculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/Calculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/Calculator/src/main/java/org/usefullibs/simplecalc/ICalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/Calculator/src/main/java/org/usefullibs/simplecalc/impl/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/Calculator/src/test/java/org/usefullibs/simplecalc/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/demo/.gradle/7.1.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/demo/.gradle/7.1.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/demo/.gradle/7.1.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/demo/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/demo/.gradle/7.1.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/demo/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/demo/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/demo/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/demo/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/demo/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/demo/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bài tập/demo/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/simplecalc/ICalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/simplecalc/impl/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/test/simplecalc/CalculatorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/SimpleCalc-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/SimpleCalc-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/simplecalc.CalculatorTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/simplecalc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/TEST-simplecalc.CalculatorTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/simplecalc/ICalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/simplecalc/impl/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/simplecalc/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.gradle/7.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/libs/Đóng gói thư viện Java.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Java Web App with Gradle/src/main/java/org/usefulservice/greeting/GreetingServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/7.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/7.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/7.2/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/7.2/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/7.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/7.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/7.2/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/7.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/7.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/7.2/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/7.2/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/build/classes/java/main/org/usefullibs/greeter/Greeter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/build/classes/java/main/org/usefullibs/greeter/impl/HelloWorld.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/build/libs/Đóng gói thư viện Java.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/src/main/java/org/usefullibs/greeter/Greeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/src/main/java/org/usefullibs/greeter/impl/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/src/test/java/org/usefullibs/grreeter/impl/HelloWorldTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Thực hành/Đóng gói thư viện Java/test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values.s" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat.values.s" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Casestudy/.idea/dataSources/96057921-5b69-487f-9d37-4d1f2e036073/entities/entities.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Casestudy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Casestudy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Practical/src/filter/LanguageFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Practical/src/filter/LanguageFilter.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SimpleCalc" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SimpleCalc" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SimpleCalc" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1xRbZJLyGPcPgvfwH9hOzGbWMro" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="application.passwordSafe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="simplecalc" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.SimpleCalc [jar]">
+    <configuration name="CalculatorTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;simplecalc.CalculatorTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CalculatorTest.testCalculateMinus" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;simplecalc.CalculatorTest.testCalculateMinus&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="CalculatorTest.testCalculatePlus" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;simplecalc.CalculatorTest.testCalculatePlus&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleCalc [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SimpleCalc [war]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="war" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.SimpleCalc [jar]" />
+        <item itemvalue="Gradle.SimpleCalc [war]" />
+        <item itemvalue="Gradle.CalculatorTest" />
+        <item itemvalue="Gradle.CalculatorTest.testCalculateMinus" />
+        <item itemvalue="Gradle.CalculatorTest.testCalculatePlus" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ecce961-592e-4fdb-889f-54914d8a5f91" name="Changes" comment="" />
+      <created>1630320904230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630320904230</updated>
+      <workItem from="1630320906638" duration="1824000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

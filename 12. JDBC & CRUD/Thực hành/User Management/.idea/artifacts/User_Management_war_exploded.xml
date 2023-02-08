@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="User Management:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/User_Management_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="User Management/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="User Management" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="application" name="javax.servlet:jstl:1.2" />
+          <element id="library" level="application" name="sqljdbc4-3.0" />
+          <element id="library" level="application" name="mysql-connector-java-8.0.26" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
