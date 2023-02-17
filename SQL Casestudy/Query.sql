@@ -1,73 +1,68 @@
-USE furama_resort;
+USE furamaproject;
 
 
 #2.	Hiển thị thông tin của tất cả nhân viên có trong hệ thống có tên bắt đầu là một trong các ký tự “H”, “T” hoặc “K”
 # và có tối đa 15 ký tự.
-SELECT *
-FROM NhanVien
-WHERE (hoTen LIKE 'H%' OR hoTen LIKE 'T%' OR hoTen LIKE 'K%')
-  AND LENGTH(hoTen) <= 15;
+SELECT * FROM employee
+WHERE (`name` LIKE 'H%' OR `name` LIKE 'T%' OR `name` LIKE 'K%')
+  AND LENGTH(`name`) <= 15;
 
 #3.	Hiển thị thông tin của tất cả khách hàng có độ tuổi từ 18 đến 50 tuổi và có địa chỉ ở “Đà Nẵng” hoặc “Quảng Trị”.
-SELECT idKhachHang, hoTen, TIMESTAMPDIFF(YEAR, ngaySinh, CURDATE()) AS tuoi, soCMND, sdt, email, diaChi
-FROM KhachHang
-WHERE TIMESTAMPDIFF(YEAR, ngaySinh, CURDATE()) BETWEEN 18 AND 50
-  AND (diaChi = 'Da Nang' OR diaChi = 'Quang Tri');
+-- hàm timestampdiff(giá trị muốn lấy, thời gian nhỏ hơn, thời gian lớn hơn) curdate cho ra ngày tháng hiện tại
+SELECT id, `name`, TIMESTAMPDIFF(YEAR, birthday, CURDATE()) AS age, id_card, phone_number, email, address
+FROM customer
+WHERE   TIMESTAMPDIFF(YEAR, birthday, CURDATE()) between 18 and 50 and (address like '%Đà Nẵng%' or address like '%Quảng Trị%');
+
 
 #4.	Đếm xem tương ứng với mỗi khách hàng đã từng đặt phòng bao nhiêu lần.
 # Kết quả hiển thị được sắp xếp tăng dần theo số lần đặt phòng của khách hàng.
 # Chỉ đếm những khách hàng nào có Tên loại khách hàng là “Diamond”.
-SELECT HopDong.idKhachHang, hoTen, tenLoaiKhach, COUNT(HopDong.idKhachHang) AS soLanDat
-FROM KhachHang
-         INNER JOIN LoaiKhach LK ON KhachHang.idLoaiKhach = LK.idLoaiKhach
-         INNER JOIN HopDong ON KhachHang.idKhachHang = HopDong.idKhachHang
-WHERE tenLoaiKhach = 'Diamond'
-GROUP BY HopDong.idKhachHang
-ORDER BY COUNT(idKhachHang);
+-- 
+SELECT customer.name, customer_type.name, COUNT(contract.customer_id) AS used
+FROM customer
+         INNER JOIN customer_type ON customer.customer_type_id = customer_type.id
+         INNER JOIN contract ON customer.id = contract.customer_id
+WHERE customer_type.name = 'Diamond'
+ GROUP BY contract.customer_id
+ ORDER BY COUNT(customer_id);
+
 
 #5.	Hiển thị IDKhachHang, HoTen, TenLoaiKhach, IDHopDong, TenDichVu, NgayLamHopDong, NgayKetThuc, TongTien 
 # (Với TongTien được tính theo công thức như sau: ChiPhiThue + SoLuong*Gia, với SoLuong và Giá là từ bảng DichVuDiKem) 
 # cho tất cả các Khách hàng đã từng đặt phỏng. (Những Khách hàng nào chưa từng đặt phòng cũng phải hiển thị ra).
 
 #tinh gia tien dich vu di kem theo hop dong chi tiet
-CREATE VIEW ThongKeDichVuDiKem AS
-SELECT idHopDong, SUM(tienDichVu) AS tongTienDichVu
-FROM (SELECT HopDong.idHopDong, (soLuong * DVDK.gia) AS tienDichVu
-      FROM HopDong
-               INNER JOIN DichVu DV ON HopDong.idDichVu = DV.idDichVu
-               INNER JOIN HopDongChiTiet HDCT ON HopDong.idHopDong = HDCT.idHopDong
-               INNER JOIN DichVuDiKem DVDK ON HDCT.idDichVuDiKem = DVDK.idDichVuDiKem) AS tkHDCT
-GROUP BY tkHDCT.idHopDong;
 
-SELECT KH.idKhachHang,
-       hoTen,
-       tenLoaiKhach,
-       HD.idHopDong,
-       tenDichVu,
-       ngayLapHopDong,
-       ngayKetThuc,
-       chiPhiThue,
-       tongTienDichVu,
-       (chiPhiThue + TKDVDK.tongTienDichVu) AS tongTien
-FROM HopDong HD
-         INNER JOIN DichVu DV ON HD.idDichVu = DV.idDichVu
-         INNER JOIN ThongKeDichVuDiKem TKDVDK ON TKDVDK.idHopDong = HD.idHopDong
-         RIGHT JOIN KhachHang KH ON KH.idKhachHang = HD.idKhachHang
-         INNER JOIN LoaiKhach LK ON KH.idLoaiKhach = LK.idLoaiKhach
-ORDER BY idKhachHang;
+SELECT cus.id,
+       cus.`name`,
+       c_type.`name`,
+       con.id as ID_contract,
+       f_type.`name` as facility_name,
+       con.start_date,
+       con.end_date
+FROM contract con
+		  JOIN customer cus ON cus.id = con.customer_id
+         INNER JOIN facility fac ON con.facility_id = fac.id
+         INNER JOIN customer_type c_type ON cus.customer_type_id = c_type.id
+         INNER JOIN contract_detail c_detail on con.id = c_detail.contract_id
+         INNER JOIN facility_type f_type on fac.facility_type_id = f_type.id
+         ;
+		
+        
+       
 
 #6.	Hiển thị IDDichVu, TenDichVu, DienTich, ChiPhiThue, TenLoaiDichVu 
 # của tất cả các loại Dịch vụ chưa từng được Khách hàng thực hiện đặt từ quý 1 của năm 2019 (Quý 1 là tháng 1, 2, 3).
 
 #chon ra nhung dich vu duoc KH su dung sau qui 1 nam 2019
 #sau do in ra nhung dich vu khong nam trong ds do
-SELECT idDichVu, tenDichVu, dienTich, chiPhiThue, tenLoaiDichVu
-FROM DichVu
-         INNER JOIN LoaiDichVu LDV ON DichVu.idLoaiDichVu = LDV.idLoaiDichVu
-WHERE idDichVu NOT IN (SELECT DichVu.idDichVu
-                       FROM HopDong
-                                INNER JOIN DichVu ON HopDong.idDichVu = DichVu.idDichVu
-                       WHERE ngayLapHopDong >= '2019-04-01');
+SELECT fac.id, fac.`name`, fac.area, fac.cost, f_type.`name`
+FROM facility fac
+         INNER JOIN facility_type f_type ON fac.id = f_type.id
+WHERE fac.id NOT IN (SELECT fac.id
+                       FROM contract
+                                INNER JOIN facility ON contract.facility_id = fac.id
+                       WHERE start_date >= '2019-04-01');
 
 #7.	Hiển thị thông tin IDDichVu, TenDichVu, DienTich, SoNguoiToiDa, ChiPhiThue, TenLoaiDichVu
 # của tất cả các loại dịch vụ đã từng được Khách hàng đặt phòng trong năm 2018

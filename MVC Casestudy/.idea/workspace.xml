@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90d89401-1c49-4212-b111-296a038c9638" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../mvc case study/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/controller/ContractServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/controller/EmployeeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/controller/FacilityServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/model/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/model/customer/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/model/employee/Division.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/model/employee/EducationDegree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/model/employee/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/model/employee/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/model/facility/Facility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/model/facility/FacilityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/model/facility/RentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/customer/CustomerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/customer/CustomerTypeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/customer/impl/ICustomerRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/customer/impl/ICustomerTypeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/employee/DivisionRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/employee/EducationDegreeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/employee/EmployeeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/employee/PositionRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/employee/impl/IDivisionRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/employee/impl/IEducationDegreeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/employee/impl/IEmployeeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/employee/impl/IPositionRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/facility/FacilityRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/facility/FacilityTypeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/facility/RentTypeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/facility/impl/IFacilityRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/facility/impl/IFacilityTypeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/repository/facility/impl/IRentTypeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/customer/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/customer/CustomerTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/customer/impl/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/customer/impl/ICustomerTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/employee/DivisionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/employee/EducationDegreeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/employee/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/employee/PositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/employee/impl/IDivisionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/employee/impl/IEducationDegreeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/employee/impl/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/employee/impl/IPositionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/facility/FacilityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/facility/FacilityTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/facility/RentTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/facility/impl/IFacilityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/facility/impl/IFacilityTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mvc case study/src/main/java/service/facility/impl/IRentTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1. Cơ sở dữ liệu quan hệ/student_management.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../1. Cơ sở dữ liệu quan hệ/student_management.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Thiết kế và tạo CSDL/Bài tập/Phân tích và thiết kế CSDL/Query.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Thiết kế và tạo CSDL/Bài tập/Phân tích và thiết kế CSDL/car_shop_management.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Thiết kế và tạo CSDL/Bài tập/Phân tích và thiết kế CSDL/diagram.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Thiết kế và tạo CSDL/Bài tập/Xác định khoá chính, khoá ngoại/Query.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2. Thiết kế và tạo CSDL/Bài tập/Xác định khoá chính, khoá ngoại/customer_bank_account.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3. Thao tác với CSDL/Bài tập/Quản lý thư viện/LibraryDiagram.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3. Thao tác với CSDL/Bài tập/Quản lý thư viện/Query.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4. Các hàm thông dụng trong SQL/Bài tập/Query.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Casestudy.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/MVC_Casestudy_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MVC Casestudy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.annotation.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.ejb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.jms.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.persistence.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.resource.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/javax.transaction.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/bean/contract/Contract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/bean/contract/ContractDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/bean/customer/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/bean/customer/CustomerType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/bean/employee/Division.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/bean/employee/EducationDegree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/bean/employee/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/bean/employee/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/bean/employee/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/bean/service/AttachService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/bean/service/RentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/bean/service/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/bean/service/ServiceType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/controller/ContractServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/controller/CustomerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/controller/EmployeeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/controller/HomeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/controller/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/controller/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/controller/ServiceServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/filter/LanguageFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/filter/LoginFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/repository/IContractRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/repository/ICustomerRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/repository/IEmployeeRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/repository/IServiceRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/repository/impl/ContractRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/repository/impl/CustomerRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/repository/impl/EmployeeRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/repository/impl/ServiceRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/service/IContractSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/service/ICustomerSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/service/IEmployeeSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/service/IServiceSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/service/impl/ContractSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/service/impl/CustomerSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/service/impl/EmployeeSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/service/impl/ServiceSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/util/DBContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/classes/util/Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/lib/junit-4.13.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/contract/add-contract.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/contract/add-contractdetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/customer/add-customer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/customer/edit-customer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/customer/list-customer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/employee/add-employee.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/employee/edit-employee.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/employee/list-employee.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/navbar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/service/add-service.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/service/edit-service.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/service/list-service.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/static/image/login.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MVC_Casestudy_war_exploded/static/image/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/bean/contract/Contract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/bean/contract/ContractDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/bean/customer/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/bean/customer/CustomerType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/bean/employee/Division.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/bean/employee/EducationDegree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/bean/employee/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/bean/employee/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/bean/employee/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/bean/service/AttachService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/bean/service/RentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/bean/service/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/bean/service/ServiceType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/controller/ContractServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/controller/CustomerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/controller/EmployeeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/controller/HomeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/controller/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/controller/LogoutServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/controller/ServiceServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/filter/LanguageFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/filter/LoginFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/repository/IContractRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/repository/ICustomerRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/repository/IEmployeeRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/repository/IServiceRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/repository/impl/ContractRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/repository/impl/CustomerRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/repository/impl/EmployeeRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/repository/impl/ServiceRepo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/service/IContractSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/service/ICustomerSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/service/IEmployeeSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/service/IServiceSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/service/impl/ContractSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/service/impl/CustomerSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/service/impl/EmployeeSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/service/impl/ServiceSvc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/util/DBContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MVC Casestudy/util/Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MVC Casestudy/repository/EmployeeRepoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/MVC Casestudy/util/ValidatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/contract/Contract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/contract/ContractDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/customer/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/customer/CustomerType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/employee/Division.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/employee/EducationDegree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/employee/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/employee/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/employee/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/service/AttachService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/service/RentType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/service/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean/service/ServiceType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ContractServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/CustomerServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/EmployeeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/HomeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/LogoutServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/ServiceServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/filter/LanguageFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/filter/LoginFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/IContractRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/ICustomerRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/IEmployeeRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/IServiceRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/impl/ContractRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/impl/CustomerRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/impl/EmployeeRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/impl/ServiceRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/IContractSvc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/ICustomerSvc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/IEmployeeSvc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/IServiceSvc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/impl/ContractSvc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/impl/CustomerSvc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/impl/EmployeeSvc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/impl/ServiceSvc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/DBContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/Validator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/repository/EmployeeRepoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/util/ValidatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/contract/add-contract.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/contract/add-contractdetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/customer/add-customer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/customer/edit-customer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/customer/list-customer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/employee/add-employee.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/employee/edit-employee.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/employee/list-employee.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/navbar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/service/add-service.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/service/edit-service.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/service/list-service.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/.idea/artifacts/Practical_Exam_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/.idea/webContexts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/Practical Exam.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/WEB-INF/classes/bean/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/WEB-INF/classes/bean/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/WEB-INF/classes/controller/ProductServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/WEB-INF/classes/filter/LanguageFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/WEB-INF/classes/repository/IRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/WEB-INF/classes/repository/impl/Repository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/WEB-INF/classes/service/IProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/WEB-INF/classes/service/impl/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/WEB-INF/classes/utils/DBContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/WEB-INF/classes/utils/Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/WEB-INF/lib/hamcrest-core-1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/WEB-INF/lib/junit-4.13.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/artifacts/Practical_Exam_war_exploded/navbar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/production/Practical Exam/bean/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/production/Practical Exam/bean/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/production/Practical Exam/controller/ProductServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/production/Practical Exam/filter/LanguageFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/production/Practical Exam/repository/IRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/production/Practical Exam/repository/impl/Repository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/production/Practical Exam/service/IProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/production/Practical Exam/service/impl/ProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/production/Practical Exam/utils/DBContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/production/Practical Exam/utils/Validator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/out/test/Practical Exam/repository/RepositoryTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/src/bean/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/src/bean/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/src/controller/ProductServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/src/filter/LanguageFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/src/repository/IRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/src/repository/impl/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/src/service/IProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/src/service/impl/ProductService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/src/utils/DBContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/src/utils/Validator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/test/repository/RepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/web/add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/web/edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/web/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical Exam/web/navbar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/.idea/artifacts/Practical_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/.idea/libraries/bootstrap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/.idea/libraries/jquery.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/.idea/libraries/popper_js.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/Practical.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/bean/DichVuDiKem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/bean/TiecCuoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/controller/TiecCuoiServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/filter/LanguageFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/repository/IRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/repository/Repository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/service/IService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/service/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/util/DBContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/classes/util/SQL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/listtieccuoi.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/static/http_ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/static/http_cdnjs.cloudflare.com_ajax_libs_popper.js_1.16.0_umd_popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/static/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_css_bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/static/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_js_bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/suatieccuoi.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/artifacts/Practical_war_exploded/themtieccuoi.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/bean/DichVuDiKem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/bean/TiecCuoi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/controller/TiecCuoiServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/filter/LanguageFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/repository/IRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/repository/Repository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/service/IService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/service/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/util/DBContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/out/production/Practical/util/SQL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/src/bean/DichVuDiKem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/src/bean/TiecCuoi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/src/controller/TiecCuoiServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/src/filter/LanguageFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/src/repository/IRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/src/repository/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/src/service/IService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/src/service/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/src/util/DBContext.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/src/util/SQL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/web/listtieccuoi.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/web/static/http_ajax.googleapis.com_ajax_libs_jquery_3.5.1_jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/web/static/http_cdnjs.cloudflare.com_ajax_libs_popper.js_1.16.0_umd_popper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/web/static/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_css_bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/web/static/http_maxcdn.bootstrapcdn.com_bootstrap_4.5.2_js_bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/web/suatieccuoi.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practical/web/themtieccuoi.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL Casestudy/CreateDB.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL Casestudy/Query.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../SQL Casestudy/Query.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SQL Casestudy/furama_resort.sql" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2Lm1MaD4O4XYhGqIl1YAObfpUIO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.70" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.70" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="9187f028-14fc-433a-864b-1c5d0d901ccf" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49615" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="49616" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90d89401-1c49-4212-b111-296a038c9638" name="Default Changelist" comment="" />
+      <created>1676461403192</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676461403192</updated>
+      <workItem from="1676461406798" duration="1646000" />
+      <workItem from="1676465533447" duration="2391000" />
+      <workItem from="1676468408442" duration="2074000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
