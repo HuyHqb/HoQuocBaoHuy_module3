@@ -2,14 +2,14 @@ package model.facility;
 
 public class RentType {
     private int id;
-    private String name;
+    private String type;
 
     public RentType() {
     }
 
-    public RentType(int id, String name) {
+    public RentType(int id, String type) {
         this.id = id;
-        this.name = name;
+        this.type = type;
     }
 
     public int getId() {
@@ -20,11 +20,11 @@ public class RentType {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getType() {
+        return type;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setType(String type) {
+        this.type = type;
     }
 }

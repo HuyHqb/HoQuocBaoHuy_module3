@@ -2,14 +2,18 @@ package model.customer;
 
 public class CustomerType {
     private int id;
-    private String name;
+    private String type;
 
     public CustomerType() {
     }
 
-    public CustomerType(int id, String name) {
+    public CustomerType(int id, String type) {
         this.id = id;
-        this.name = name;
+        this.type = type;
+    }
+
+    public CustomerType(int id) {
+        this.id = id;
     }
 
     public int getId() {
@@ -20,11 +24,11 @@ public class CustomerType {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getType() {
+        return type;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setType(String type) {
+        this.type = type;
     }
 }

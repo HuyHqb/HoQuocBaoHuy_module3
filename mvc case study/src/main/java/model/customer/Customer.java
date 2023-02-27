@@ -2,7 +2,7 @@ package model.customer;
 
 public class Customer{
     private int id;
-    private CustomerType customerType;
+
     private String name;
     private String birthday;
     private int gender;
@@ -10,12 +10,13 @@ public class Customer{
     private String phoneNumber;
     private String email;
     private String address;
+    private CustomerType customerType;
 
     public Customer() {
     }
 
-    public Customer(CustomerType customerType, String name, String birthday, int gender, String idCard, String phoneNumber, String email, String address) {
-        this.customerType = customerType;
+    public Customer( String name, String birthday, int gender, String idCard, String phoneNumber, String email, String address,CustomerType customerType) {
+
         this.name = name;
         this.birthday = birthday;
         this.gender = gender;
@@ -23,11 +24,12 @@ public class Customer{
         this.phoneNumber = phoneNumber;
         this.email = email;
         this.address = address;
+        this.customerType = customerType;
     }
 
-    public Customer(int id, CustomerType customerType, String name, String birthday, int gender, String idCard, String phoneNumber, String email, String address) {
+    public Customer(int id, String name, String birthday, int gender, String idCard, String phoneNumber, String email, String address, CustomerType customerType) {
         this.id = id;
-        this.customerType = customerType;
+
         this.name = name;
         this.birthday = birthday;
         this.gender = gender;
@@ -35,6 +37,7 @@ public class Customer{
         this.phoneNumber = phoneNumber;
         this.email = email;
         this.address = address;
+        this.customerType = customerType;
     }
 
     public int getId() {

@@ -2,14 +2,14 @@ package model.facility;
 
 public class FacilityType {
     private int id;
-    private String name;
+    private String type;
 
     public FacilityType() {
     }
 
-    public FacilityType(int id, String name) {
+    public FacilityType(int id, String type) {
         this.id = id;
-        this.name = name;
+        this.type = type;
     }
 
     public int getId() {
@@ -20,11 +20,11 @@ public class FacilityType {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getType() {
+        return type;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setType(String type) {
+        this.type = type;
     }
 }

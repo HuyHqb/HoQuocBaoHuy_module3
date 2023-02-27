@@ -59,12 +59,12 @@ values
 (9,'Tòng Hoang','1982-09-03','256781231',6000000,'0245144444','hoangtong@gmail.com','213 Hàm Nghi, Đà Nẵng',2,4,4),
 (10,'Nguyễn Công Đạo','1994-01-08','755434343',8000000,'0988767111','nguyencongdao12@gmail.com','6 Hoà Khánh, Đồng Nai',2,3,2);
 
-insert into `position`(name) value ('Quản Lý'),('Nhân Viên');
-insert into education_degree(name) value ('Trung Cấp'),('Cao Đẳng'),('Đại Học' ),('Sau Đại Học');
-insert into division(name) value('Sale-Marketing'),('Hành chính'),('Phục vụ'),('Quản lý');
-insert into customer_type(name) value ('Diamond'),('Platinium'),('Gold'),('Silver'),('Member');
-insert into facility_type(name) value('Villa'),('House'),('Room');
-insert into rent_type(name) value ('hour'),('day'),('mounth'),('year');
+insert into `position`(type) value ('Quản Lý'),('Nhân Viên');
+insert into education_degree(type) value ('Trung Cấp'),('Cao Đẳng'),('Đại Học' ),('Sau Đại Học');
+insert into division(type) value('Sale-Marketing'),('Hành chính'),('Phục vụ'),('Quản lý');
+insert into customer_type(type) value ('Diamond'),('Platinium'),('Gold'),('Silver'),('Member');
+insert into facility_type(type) value('Villa'),('House'),('Room');
+insert into rent_type(type) value ('hour'),('day'),('mounth'),('year');
 -- set data for service table
 insert into facility(name, area, cost, max_people, standard_room, other_service_description, pool_area, floor, facility_free,rent_type_id,facility_type_id)
 values ('Villa Beach Front',25000,1000000,10,'vip','Có hồ bơi',500,4,null,3,1),

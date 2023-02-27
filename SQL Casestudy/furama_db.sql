@@ -1,20 +1,20 @@
-drop database furamaproject;
+
 create database furamaproject;
 
 use furamaproject;
 
 create table `position`(
 id int auto_increment auto_increment primary key, 
-`name` varchar(45)
+`type` varchar(45)
 );
 
 create table division(
 id int auto_increment primary key, 
-`name` varchar(45));
+`type` varchar(45));
 
 create table education_degree(
 id int auto_increment primary key, 
-`name` varchar(45));
+`type` varchar(45));
 
 create table employee(
 id int auto_increment primary key, 
@@ -35,12 +35,12 @@ foreign key(division_id) references division(id)
 
 create table customer_type(
 id int auto_increment primary key, 
-`name` varchar(45)
+`type` varchar(45)
 );
 
 create table customer(
 id int auto_increment primary key, 
-customer_type_id int, 
+
 `name` varchar(45), 
 birthday date, 
 gender bit(1), 
@@ -48,17 +48,19 @@ id_card varchar(25),
 phone_number varchar(11), 
 email varchar(45),
 address varchar(45),
+customer_type_id int, 
 foreign key(customer_type_id) references customer_type(id)
+
 );
 
 create table rent_type(
 id int auto_increment primary key, 
-`name` varchar(45)
+`type` varchar(45)
 );
 
 create table facility_type(
 id int auto_increment primary key, 
-`name` varchar(45)
+`type` varchar(45)
 );
 
 create table facility(
@@ -113,8 +115,8 @@ delimiter //
 create procedure delete_facility_by_id(in id int)
 begin 
 
-delete from service 
-where facility_id = id;
+delete from facility  
+where facility.id = id;
 
 end//
 delimiter ;
@@ -123,8 +125,8 @@ delimiter //
 create procedure delete_customer_by_id(in id int)
 begin 
 
-delete from customer_info 
-where customer_id = id;
+delete from customer
+where customer.id = id;
 
 end//
 delimiter ;
@@ -133,9 +135,9 @@ delimiter //
 create procedure delete_employee_by_id(in id int)
 begin 
 
-delete from employee_info 
-where employee_id = id;
+delete from employee
+where employee.id = id;
 
 end//
 delimiter ;
-
+select c.*, c_type.type from customer c join customer_type c_type on c.customer_type_id = c_type.id

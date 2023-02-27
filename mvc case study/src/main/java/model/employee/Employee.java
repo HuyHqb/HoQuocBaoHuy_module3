@@ -30,6 +30,19 @@ public class Employee {
         this.division = division;
     }
 
+    public Employee( String name, String birthday, String idCard, double salary, String phoneNumber, String email, String address, Position position, EducationDegree educationDegree, Division division) {
+        this.name = name;
+        this.birthday = birthday;
+        this.idCard = idCard;
+        this.salary = salary;
+        this.phoneNumber = phoneNumber;
+        this.email = email;
+        this.address = address;
+        this.position = position;
+        this.educationDegree = educationDegree;
+        this.division = division;
+    }
+
     public int getId() {
         return id;
     }
