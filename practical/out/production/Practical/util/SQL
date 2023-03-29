@@ -1,0 +1,30 @@
+CREATE TABLE DichVu
+(
+    idDichVu  INT AUTO_INCREMENT
+        PRIMARY KEY,
+    tenDichVu VARCHAR(45) NOT NULL,
+    donGia    INT         NOT NULL
+);
+
+CREATE TABLE ThongTinTiecCuoi
+(
+    id              INT AUTO_INCREMENT
+        PRIMARY KEY,
+    ngayToChuc      DATE         NOT NULL,
+    tenCoDau        VARCHAR(45)  NOT NULL,
+    tenChuRe        VARCHAR(45)  NOT NULL,
+    soLuongBan      INT          NOT NULL,
+    donGia          INT          NOT NULL,
+    dichVuDiKem     INT          NOT NULL,
+    tienNoDatCoc    INT          NULL,
+    tienNoThanhToan INT          NULL,
+    ngayDatCoc      DATE         NULL,
+    ngayThanhToan   DATE         NOT NULL,
+    ghiChu          VARCHAR(200) NULL,
+    trangThai       VARCHAR(45)  NULL,
+    CONSTRAINT ThongTinTiecCuoi_ibfk_1
+        FOREIGN KEY (dichVuDiKem) REFERENCES DichVu (idDichVu)
+);
+
+CREATE INDEX dichVuDiKem
+    ON ThongTinTiecCuoi (dichVuDiKem);

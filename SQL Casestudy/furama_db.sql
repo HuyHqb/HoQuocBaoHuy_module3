@@ -129,7 +129,7 @@ delete from customer
 where customer.id = id;
 
 end//
-delimiter ;
+delimiter ;phong_tro
 
 delimiter //
 create procedure delete_employee_by_id(in id int)

@@ -56,7 +56,7 @@
                 <div class="row mb-4">
                     <div class="col">
                         <div class="form-outline">
-                            <input type="text" id="name" class="form-control" name="name" />
+                                <input type="text" id="name" class="form-control" name="name" />
                             <label class="form-label" for="name">Full name</label>
                         </div>
                     </div>
@@ -71,8 +71,8 @@
                 <div class="row mb-4">
                     <div class="col">
                         <div class="form-outline">
-                            <input type="text" id="cardId" class="form-control" name="cardid"/>
-                            <label class="form-label" for="cardId">ID Card</label>
+                            <input type="text" id="idCard" class="form-control" name="idCard"/>
+                            <label class="form-label" for="idCard">ID Card</label>
                         </div>
                     </div>
                     <div class="col">
@@ -83,8 +83,8 @@
                     </div>
                     <div class="col">
                         <div class="form-outline">
-                            <input type="text" id="phone" class="form-control" name="phonenumber"/>
-                            <label class="form-label" for="phone">Phone number</label>
+                            <input type="text" id="phoneNumber" class="form-control" name="phoneNumber"/>
+                            <label class="form-label" for="phoneNumber">Phone number</label>
                         </div>
                     </div>
                 </div>
@@ -103,26 +103,27 @@
 
                 <div class="row" style="padding-left: 12px">
 
-                    <select class="form-select col-4 mb-3" style="width: 33%;padding-left: 10px" aria-label=".form-select-lg example" name="position_id">
+                    <select class="form-select col-4 mb-3" style="width: 33%;padding-left: 10px" aria-label=".form-select-lg example" name="positionId">
                         <option selected>Chose your position</option>
                         <c:forEach var="position" items="${listPosition}">
                             <option value="${position.id}">${position.type}</option>
                         </c:forEach>
                     </select>
-
-                    <select class="form-select col-4  mb-3" style="width: 30% " aria-label=".form-select-lg example" name="level_id">
-                        <option selected>Chose your level</option>
-                        <c:forEach var="level" items="${listLevel}">
-                            <option value="${level.id}">${level.type}</option>
+                    <select class="form-select col-4 mb-3"style="width: 36%" aria-label=".form-select-lg example" name="educationDegreeId">
+                        <option selected>Chose your Education degree</option>
+                        <c:forEach var="educationDegree" items="${listEducationDegree}">
+                            <option value="${educationDegree.id}">${educationDegree.type}</option>
                         </c:forEach>
                     </select>
 
-                    <select class="form-select col-4 mb-3"style="width: 36%" aria-label=".form-select-lg example" name="workpart_id">
-                        <option selected>Chose your position</option>
-                        <c:forEach var="workPart" items="${listWorkPart}">
-                            <option value="${workPart.id}">${workPart.type}</option>
+                    <select class="form-select col-4  mb-3" style="width: 30% " aria-label=".form-select-lg example" name="divisionId">
+                        <option selected>Chose your division</option>
+                        <c:forEach var="division" items="${listDivision}">
+                            <option value="${division.id}">${division.type}</option>
                         </c:forEach>
                     </select>
+
+
                 </div>
 
                 <!-- Submit button -->

@@ -10,7 +10,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Employee</title>
+    <title>Add new customer</title>
     <link rel="stylesheet" href="/views/css/bootstrap.css">
     <script src="/views/js/bootstrap.js"></script>
 </head>

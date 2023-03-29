@@ -12,10 +12,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EmployeeRepo implements IEmployeeRepo {
-    private final String SElECT_ALL_EMPLOYEE = "Select e.*, p.position,l.level, w.workpart from employee_info e join position_master p on  p.position_id = e.position_id join level_master l on l.level_id = e.level_id join workpart_master w on w.workpart_id = e.workpart_id";
-    private final String INSERT_INTO_EMPLOYEE = "insert into employee_info(name, birthday, cardid, salary, phonenumber, email, address, position_id, level_id, workpart_id) values(?,?,?,?,?,?,?,?,?,?)";
+    private final String SElECT_ALL_EMPLOYEE = "Select e.*, p.type as position_type,d.type division_type, ed.type as education_degree_type from employee e join position p on  p.id = e.position_id join education_degree ed  on ed.id = e.education_degree_id join division d on d.id = e.division_id";
+    private final String INSERT_INTO_EMPLOYEE = "insert into employee(name, birthday, id_card, salary, phone_number, email, address, position_id, education_degree_id, division_id) values(?,?,?,?,?,?,?,?,?,?)";
     private final String DELETE_EMPLOYEE_BY_ID = "call delete_employee_by_id(?)";
-    private final String SEARCH = "Select e.*, p.position_type,ed.education_degree_type, d.division_type from employee e join position p on  p.id = e.position_id join education_degree ed on ed.id = e.education_degree_id join division d on d.id = e.division_id where e.name like ? and p.position like ?  and w.workpart like ?";
+    private final String SEARCH = "Select e.*, p.type,ed.type, d.division_type from employee e join position p on  p.id = e.position_id join education_degree ed on ed.id = e.education_degree_id join division d on d.id = e.division_id where e.name like ? and p.position like ?  and w.workpart like ?";
 
     @Override
     public boolean addEmployee(Employee employee) {
@@ -57,9 +57,9 @@ public class EmployeeRepo implements IEmployeeRepo {
                 String email = resultSet.getString("email");
                 String address = resultSet.getString("address");
                 int positionId = resultSet.getInt("position_id");
-                String positionType = resultSet.getString("position");
+                String positionType = resultSet.getString("position_type");
                 Position position = new Position(positionId,positionType);
-                int educationDegreeId = resultSet.getInt("level_id");
+                int educationDegreeId = resultSet.getInt("education_degree_id   ");
                 String educationDegreeType = resultSet.getString("education_degree_type");
                 EducationDegree educationDegree =  new EducationDegree(educationDegreeId,educationDegreeType);
                 int divisionId = resultSet.getInt("division_id");

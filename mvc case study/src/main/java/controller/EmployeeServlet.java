@@ -44,6 +44,24 @@ public class EmployeeServlet extends HttpServlet {
                 break;
         }
     }
+    private void showList(HttpServletRequest request, HttpServletResponse response) {
+        List<Employee> listEmployee = employeeService.listEmployee();
+        request.setAttribute("listEmployee", listEmployee);
+        List<Position> listPosition = positionService.findAll();
+        request.setAttribute("listPosition", listPosition);
+        List<EducationDegree> listEducationDegree = educationDegreeService.findAll();
+        request.setAttribute("listEducationDegree", listEducationDegree);
+        List<Division> listDivision  = divisionService.findAll();
+        request.setAttribute("listDivision", listDivision);
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("views/employee/index.jsp");
+        try {
+            requestDispatcher.forward(request, response);
+        } catch (ServletException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
     private void showFormCreate(HttpServletRequest request, HttpServletResponse response) {
         RequestDispatcher requestDispatcher = request.getRequestDispatcher("views/employee/create.jsp");
@@ -62,18 +80,7 @@ public class EmployeeServlet extends HttpServlet {
         }
     }
 
-    private void showList(HttpServletRequest request, HttpServletResponse response) {
-        List<Employee> listEmployee = employeeService.listEmployee();
-        request.setAttribute("listEmployee", listEmployee);
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("views/employee/index.jsp");
-        try {
-            requestDispatcher.forward(request, response);
-        } catch (ServletException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
+
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -114,7 +121,7 @@ public class EmployeeServlet extends HttpServlet {
         String address = request.getParameter("address");
         int positionId = Integer.parseInt(request.getParameter("positionId"));
         Position position = new Position(positionId);
-        int educationDegreeId = Integer.parseInt(request.getParameter("educationDegree"));
+        int educationDegreeId = Integer.parseInt(request.getParameter("educationDegreeId"));
         EducationDegree educationDegree = new EducationDegree(educationDegreeId);
         int divisionId = Integer.parseInt(request.getParameter("divisionId"));
         Division division = new Division(divisionId);

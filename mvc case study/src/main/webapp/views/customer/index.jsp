@@ -9,7 +9,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Employee</title>
+    <title>List Customers</title>
     <link rel="stylesheet" href="/views/css/bootstrap.css">
     <script src="/views/js/bootstrap.js"></script>
 </head>
@@ -47,11 +47,11 @@
             </ul>
         </div>
         <div class="col-md-10">
-            <h2>Employees</h2>
+            <h2>List Customers</h2>
             <p style="color: green">${mess}</p>
             <table class="table table-striped" >
                 <tr>
-                    <th>id</th>
+                    <th>STT</th>
                     <th>Name</th>
                     <th>Birthday</th>
                     <th>Gender</th>
@@ -63,9 +63,9 @@
                     <th></th>
                     <th></th>
                 </tr>
-                <c:forEach var="customer" items="${listCustomer}">
+                <c:forEach var="customer" items="${listCustomer}" varStatus="status">
                     <tr>
-                        <td>${customer.getId()}</td>
+                        <td>${status.count}</td>
                         <td>${customer.getName()}</td>
                         <td>${customer.getBirthday()}</td>
                         <c:if test="${customer.getGender()==1}">

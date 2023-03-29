@@ -66,12 +66,12 @@
                     <th></th>
                     <th></th>
                 </tr>
-                <c:forEach var="employee" items="${listEmployee}">
+                <c:forEach var="employee" items="${listEmployee}" varStatus="status">
                     <tr>
-                        <td>${employee.getId()}</td>
+                        <td>${status.count}</td>
                         <td>${employee.getName()}</td>
                         <td>${employee.getBirthday()}</td>
-                        <td>${employee.getCardId()}</td>
+                        <td>${employee.getIdCard()}</td>
                         <td>${employee.getSalary()}</td>
                         <td>${employee.getPhoneNumber()}</td>
                         <td>${employee.getEmail()}</td>
